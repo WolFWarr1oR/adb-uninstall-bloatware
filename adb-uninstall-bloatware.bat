@@ -76,7 +76,7 @@ adb shell "pm uninstall --user 0 com.android.calendar" > CON
 echo "############################" > CON
 echo "Uninstalling Flipboard packages" > CON
 echo "############################" > CON
-echo "Uninstalling Flipboad App" > CON
+echo "Uninstalling Flipboard App" > CON
 adb shell "pm uninstall --user 0 flipboard.app" > CON
 echo "Uninstalling Flipboard Boxer App" > CON
 adb shell "pm uninstall --user 0 flipboard.boxer.app" > CON
